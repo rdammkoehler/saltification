@@ -11,4 +11,4 @@ remove nginx dir:
 
 remove html dir:
   file.absent:
-    - name: /var/www
+    - name: /var/www/nginx
